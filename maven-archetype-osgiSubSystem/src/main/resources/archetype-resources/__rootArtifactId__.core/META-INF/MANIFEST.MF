@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: ${groupId}.core
+Bundle-SymbolicName: ${groupId}.core
+Bundle-Version: #if ($version.contains("-SNAPSHOT")) $version.replace("-SNAPSHOT", ".qualifier") #else $version #end
+
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8

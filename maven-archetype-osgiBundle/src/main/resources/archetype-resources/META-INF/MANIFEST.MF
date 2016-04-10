@@ -1,0 +1,7 @@
+anifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: $artifactId
+Bundle-SymbolicName: $artifactId
+Bundle-Version: #if ($version.contains("-SNAPSHOT")) $version.replace("-SNAPSHOT", ".qualifier") #else $version #end
+
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
